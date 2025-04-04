@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+		<tab id="CustomTab" label="SCI Custom Tools">
+			<group id="Group1" label="Text Tools">
+				<button id="ConvertToAlphanumericButton" label="Convert to Alphanumeric" onAction="ConvertToAlphanumeric" />
+				<button id="RevertToOriginalButton" label="Revert to Original" onAction="RevertToOriginal" />
+			</group>
+		</tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
